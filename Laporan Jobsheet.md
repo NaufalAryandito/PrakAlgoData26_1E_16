@@ -8,7 +8,7 @@ No. Absen: 16
 ## Hasil Praktikum 1
 ![alt text](https://github.com/NaufalAryandito/PrakAlgoData26_1E_16/blob/82645c0cbb2b5594e11a6e3181032c2f8b4ed1ff/Screenshot%20(108).png?raw=true)
 ## Praktikum 2
-![alt text](?raw=true)
+![alt text](https://github.com/NaufalAryandito/PrakAlgoData26_1E_16/blob/931e59fad1f145caffbbbc6861d8e9d26e4b5610/Screenshot%20(109).png?raw=true)
 ![alt text](?raw=true)
 ## Hasil Praktikum 2
 ![alt text](?raw=true)
