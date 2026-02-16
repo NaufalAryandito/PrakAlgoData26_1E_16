@@ -27,7 +27,7 @@
 ![alt text](https://github.com/NaufalAryandito/PrakAlgoData26_1E_16/blob/6ca7f97dc0bcac781e6a1bd1b5ee34f821538889/Screenshot%20(118).png?raw=true)
 ![alt text](https://github.com/NaufalAryandito/PrakAlgoData26_1E_16/blob/9f414821f1e2e1d62b6021b3c7a6649f88154aff/Screenshot%20(119).png?raw=true)
 ## Hasil Tugas 1
-![alt text](?raw=true)
+![alt text](https://github.com/NaufalAryandito/PrakAlgoData26_1E_16/blob/d4762a7f7bbeb8f19eb9dda37ec990ea1cdf9c7c/Screenshot%20(120).png?raw=true)
 ## Tugas 2
 ![alt text](?raw=true)
 ![alt text](?raw=true)
