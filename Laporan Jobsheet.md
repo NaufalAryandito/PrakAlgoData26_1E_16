@@ -22,3 +22,15 @@
 ![alt text](https://github.com/NaufalAryandito/PrakAlgoData26_1E_16/blob/b7a4c33f2c4dba649997b1162c175f54bcb97ed8/Screenshot%20(116).png?raw=true)
 ## Hasil Praktikum 4
 ![alt text](https://github.com/NaufalAryandito/PrakAlgoData26_1E_16/blob/36cc330097e953084d1579d4338d32d348d6b315/Screenshot%20(117).png?raw=true)
+
+## Tugas 1
+![alt text](?raw=true)
+![alt text](?raw=true)
+![alt text](?raw=true)
+## Hasil Tugas 1
+![alt text](?raw=true)
+## Tugas 2
+![alt text](?raw=true)
+![alt text](?raw=true)
+## Hasil Tugas 2
+![alt text](?raw=true)
