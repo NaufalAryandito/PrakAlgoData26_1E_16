@@ -16,7 +16,9 @@ public class MahasiswaMain_16 {
         Mahasiswa_16 mhs2= new Mahasiswa_16("Annisa Nabila", "2141720160", 3.25, "TI-2L" );
             mhs2.updateIPK(3.30);
             mhs2.tampilkanInformasi();
-        
+        Mahasiswa_16 mhsDito = new Mahasiswa_16("Budi Speed","221345678", 4.0, "SIB-3E");
+            mhsDito.updateIPK(3.95);
+            mhsDito.tampilkanInformasi();
 
     }
 
