@@ -1,7 +1,7 @@
 package P2;
 public class Mahasiswa_16 {
     
-        String nama16, nim16, kelas16,nm16;
+        String nama16, nim16, kelas16;
         double ipk16;
 
         public Mahasiswa_16() {
@@ -14,7 +14,7 @@ public class Mahasiswa_16 {
         this.ipk16 = ipk16;
         kelas16 = kls16;
     }
-        
+      
     void tampilkanInformasi(){
         System.out.println("Nama: "+nama16);
         System.out.println("Nim: "+nim16);
