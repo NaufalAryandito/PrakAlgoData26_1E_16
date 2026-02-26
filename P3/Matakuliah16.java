@@ -10,6 +10,13 @@ public class Matakuliah16 {
     public void tambahData(String ruang16){
         this.ruang16=ruang16;
     }
+    public void cetakinfo(){
+        System.out.println("Kode : "+kode16);
+        System.out.println("Nama : "+nama16);
+        System.out.println("SKS : "+sks16);
+        System.out.println("Jumlah Jam : "+ jumlahJam);
+        System.out.println("Ruangan : "+ ruang16);
+    }
 
     public Matakuliah16 (String kode16, String nama16, int sks16, int jumlahJam ){
         this.kode16=kode16;

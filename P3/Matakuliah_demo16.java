@@ -27,11 +27,7 @@ public class Matakuliah_demo16 {
         }
         for (int i = 0; i < 3; i++) {
             System.out.println("Data MataKuliah ke - "+(i+1));
-            System.out.println("Kode : "+ arrayOfMatakuliah16[i].kode16);
-            System.out.println("Nama : "+arrayOfMatakuliah16[i].nama16);
-            System.out.println("SKS : "+ arrayOfMatakuliah16[i].sks16);
-            System.out.println("Jumlah Jam : "+arrayOfMatakuliah16[i].jumlahJam);
-            System.out.println("Ruangan : "+arrayOfMatakuliah16[i].ruang16);
+            arrayOfMatakuliah16[i].cetakinfo();
             System.out.println("--------------------------------------------------");
         }
     }
