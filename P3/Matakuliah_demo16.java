@@ -19,11 +19,11 @@ public class Matakuliah_demo16 {
         System.out.print("Jumlah Jam : ");
         dummy= dito.nextLine();
         jumlahJam= Integer.parseInt(dummy);
-        // System.out.print("Ruangan : ");
-        // ruang16= dito.nextLine();
+        System.out.print("Ruangan : ");
+        ruang16= dito.nextLine();
         System.out.println("----------------------------------");
         arrayOfMatakuliah16[i]= new Matakuliah16(kode16, nama16, sks16, jumlahJam);
-        // arrayOfMatakuliah16[i].tambahData(ruang16);
+        arrayOfMatakuliah16[i].tambahData(ruang16);
         }
         for (int i = 0; i < 3; i++) {
             System.out.println("Data MataKuliah ke - "+(i+1));
@@ -31,7 +31,7 @@ public class Matakuliah_demo16 {
             System.out.println("Nama : "+arrayOfMatakuliah16[i].nama16);
             System.out.println("SKS : "+ arrayOfMatakuliah16[i].sks16);
             System.out.println("Jumlah Jam : "+arrayOfMatakuliah16[i].jumlahJam);
-            // System.out.println("Ruangan : "+arrayOfMatakuliah16[i].ruang16);
+            System.out.println("Ruangan : "+arrayOfMatakuliah16[i].ruang16);
             System.out.println("--------------------------------------------------");
         }
     }
