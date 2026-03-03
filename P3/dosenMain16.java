@@ -26,5 +26,10 @@ public class dosenMain16 {
         for ( dosen16 dsn : arrayofdosen) {
             dsn.tampilDosen();
         }
+        dataDosen16.datasemuadosen(arrayofdosen);
+        dataDosen16.jumlahDosenperjeniskelamin(arrayofdosen);
+        dataDosen16.rerataUsiaDosenPerJenisKelamin(arrayofdosen);
+        dataDosen16.infoDosenPalingTua(arrayofdosen);
+        dataDosen16.infoDosenPalingMuda(arrayofdosen);
     }
 }
