@@ -50,6 +50,27 @@
 4. <img width="636" height="613" alt="image" src="https://github.com/user-attachments/assets/62d65247-6037-452a-976b-592484a2c920" />
 <img width="367" height="441" alt="image" src="https://github.com/user-attachments/assets/9d9cbe79-c12f-487a-b762-5a48678ec34b" />
 
+## Tugas 1
+
+kode: 
+<img width="801" height="467" alt="image" src="https://github.com/user-attachments/assets/36f5e492-ab0a-41d5-b87c-80724e6bec21" />
+<img width="750" height="519" alt="image" src="https://github.com/user-attachments/assets/69166985-9d62-4da4-9492-b452183493f9" />
+
+hasil: 
+<img width="363" height="344" alt="image" src="https://github.com/user-attachments/assets/8342e542-3bba-4031-afba-ad964e852b80" />
+
+## Tugas 2
+
+kode:
+<img width="554" height="636" alt="image" src="https://github.com/user-attachments/assets/d31ecddc-0e9c-4a72-a226-72b9e3377ea0" />
+<img width="409" height="224" alt="image" src="https://github.com/user-attachments/assets/75a29c5a-0aec-4621-8067-f472529a5610" />
+<img width="516" height="479" alt="image" src="https://github.com/user-attachments/assets/af756046-c439-4f1e-98db-704acd1a121d" />
+
+
+
+hasil: 
+<img width="363" height="634" alt="image" src="https://github.com/user-attachments/assets/b270c0d3-1b43-44d5-aafd-c101a81a81ef" />
+<img width="264" height="321" alt="image" src="https://github.com/user-attachments/assets/69c2319f-cdf4-4ebd-afde-846a53ccebd9" />
 
 
 
