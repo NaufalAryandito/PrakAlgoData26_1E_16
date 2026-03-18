@@ -51,3 +51,9 @@
 4.<img width="176" height="59" alt="image" src="https://github.com/user-attachments/assets/6747aef7-2c51-4ab6-a0e1-6d8c9fa90281" />
 <h4> Artinya ketika bagian array yang diproses hanya terdiri dari satu elemen, maka nilai elemen tersebut langsung dikembalikan tanpa perlu dibagi lagi.</h4>
 5. Method totalDC() bekerja dengan menggunakan konsep Divide and Conquer, yaitu dengan membagi array menjadi dua bagian menggunakan variabel mid. Setiap bagian kemudian dihitung secara rekursif sampai mencapai kondisi dasar yaitu satu elemen. Setelah itu hasil dari masing-masing bagian dijumlahkan kembali sehingga diperoleh total seluruh nilai dalam array.
+
+## Tugas
+<img width="471" height="219" alt="image" src="https://github.com/user-attachments/assets/eebf6afb-a422-4230-aa9d-e42efce7cc72" />
+<img width="502" height="572" alt="image" src="https://github.com/user-attachments/assets/8f1e26db-8b5b-49a0-aedb-e6a4c632ff1a" />
+<img width="736" height="467" alt="image" src="https://github.com/user-attachments/assets/6453ecd2-b95b-4d9f-b4d2-1e5abb092c9a" />
+<img width="196" height="53" alt="image" src="https://github.com/user-attachments/assets/69dfc1cb-5eb4-4925-b3f8-147470efaf3f" />
