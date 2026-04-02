@@ -13,10 +13,10 @@ public class SortingMain16 {
         System.out.println("Data sudah diurutkan dengan BUBBLE SORT (ASC)");
         dataurut1.tampil();
 
-    //     System.out.println("Data awal 2");
-    //     dataurut2.tampil();
-    //     dataurut2.SelectionSort();
-    //     System.out.println("Data sudah diurutkan dengan SELECTION SORT (ASC)");
-    //     dataurut2.tampil();
+        System.out.println("Data awal 2");
+        dataurut2.tampil();
+        dataurut2.SelectionSort();
+        System.out.println("Data sudah diurutkan dengan SELECTION SORT (ASC)");
+        dataurut2.tampil();
     }
 }
