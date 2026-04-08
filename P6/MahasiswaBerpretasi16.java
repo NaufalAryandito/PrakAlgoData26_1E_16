@@ -18,6 +18,19 @@ void tambah (Mahasiswa16 m){
             System.out.println("-------------------------");
         }
     }
+    void selectionSort(){
+        for (int i = 0; i < listMhs.length; i++) {
+            int idxMin=i;
+            for (int j = i+1; j < listMhs.length; j++) {
+                if (listMhs[j].ipk<listMhs[idxMin].ipk){
+                    idxMin=j;
+            }
+        }
+            Mahasiswa16 tmp =listMhs[idxMin];
+            listMhs[idxMin]=listMhs[i];
+            listMhs[i]=tmp;
+        }
+    }
     void bubbleSort(){
         for (int i = 0; i < listMhs.length-1; i++) {
             for (int j = 1; j < listMhs.length-i; j++) {
