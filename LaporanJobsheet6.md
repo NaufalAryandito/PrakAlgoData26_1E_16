@@ -67,6 +67,9 @@ Maka kedua nilai itu ditukar.
 <img width="326" height="458" alt="image" src="https://github.com/user-attachments/assets/b6f6a38d-adcd-453e-8a18-e3c5a093263b" />
 
 ### Pertanyaan
+1. Proses di atas bertujuan untuk mencari indeks dengan nilai IPK terkecil dalam satu iterasi. Setelah perulangan j selesai, program akan mendapatkan posisi pasti dari nilai terkecil di sisa list tersebut, yang nantinya akan ditukar (swap) ke posisi depan agar data terurut secara Ascending (dari kecil ke besar).
+
+Jika tanda < pada bagian if diubah menjadi >, maka fungsinya akan berubah menjadi mencari nilai terbesar (Descending).
 
 ### Praktikum 4
 <h4>Screenshot</h4>
