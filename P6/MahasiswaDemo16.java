@@ -1,19 +1,33 @@
 package P6;
 
+import java.util.Scanner;
+
 public class MahasiswaDemo16 {
     public static void main(String[] args) {
-        MahasiswaBerpretasi16 list = new MahasiswaBerpretasi16();
-        Mahasiswa16 m1 = new Mahasiswa16("123", "Zidan", "2A", 3.2);
-        Mahasiswa16 m2 = new Mahasiswa16("124", "Ayu", "2A", 3.5);
-        Mahasiswa16 m3 = new Mahasiswa16("125", "Sofi", "2A", 3.1);
-        Mahasiswa16 m4 = new Mahasiswa16("126", "Sita", "2A", 3.9);
-        Mahasiswa16 m5 = new Mahasiswa16("127", "Miki", "2A", 3.7);
+      Scanner dito = new Scanner (System.in);
         
-        list.tambah(m1);
-        list.tambah(m2);
-        list.tambah(m3);
-        list.tambah(m4);
-        list.tambah(m5);
+      MahasiswaBerpretasi16 list= new MahasiswaBerpretasi16();
+
+      System.out.print("Jumlah Mahasiswa: ");
+      int jumlah= dito.nextInt();
+      dito.nextLine();
+      
+      for (int i = 0; i < jumlah; i++) {
+        System.out.println("data mahasiswa ke- "+(i+1));
+        System.out.print("NIM: ");
+        String nim = dito.nextLine();
+        System.out.print("Nama: ");
+        String nama= dito.nextLine();
+        System.out.print("Kelas: ");
+        String kelas = dito.nextLine();
+        System.out.print("IPK: ");
+        double ipk = dito.nextDouble();
+        dito.nextLine();
+
+        Mahasiswa16 m= new Mahasiswa16(nim, nama, kelas, ipk);
+        list.tambah(m);
+      }
+       
         
         System.out.println("Data mahasiswa sebelum sorting: ");
         list.tampil();
