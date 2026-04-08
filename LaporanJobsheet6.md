@@ -58,3 +58,26 @@ Maka kedua nilai itu ditukar.
       Total perbandingan/perulangan = 1225 kali (rumus: 50×49/2)
 2. <img width="639" height="601" alt="image" src="https://github.com/user-attachments/assets/719d0a95-7dfe-4f8d-86b7-570ab9c47126" />
 
+### Praktikum 3
+<h4>Screenshot</h4>
+
+<img width="717" height="84" alt="image" src="https://github.com/user-attachments/assets/af91a34b-c7d6-4884-a080-e66f60cf7e20" />
+<img width="503" height="255" alt="image" src="https://github.com/user-attachments/assets/334508a7-a3ed-4391-ab65-4f052320374f" />
+<img width="164" height="450" alt="image" src="https://github.com/user-attachments/assets/aeb8c23b-287a-4fd6-a479-c2e3c91866ba" />
+<img width="326" height="458" alt="image" src="https://github.com/user-attachments/assets/b6f6a38d-adcd-453e-8a18-e3c5a093263b" />
+
+### Pertanyaan
+
+### Praktikum 4
+<h4>Screenshot</h4>
+
+<img width="500" height="212" alt="image" src="https://github.com/user-attachments/assets/1c015528-ed45-4c8b-85c4-8e1782597209" />
+<img width="706" height="96" alt="image" src="https://github.com/user-attachments/assets/98a60ec1-b863-4c9f-a4b0-fb5dbe27a11c" />
+<img width="220" height="453" alt="image" src="https://github.com/user-attachments/assets/01ca66af-62b2-45f7-8dfe-c3b3a0c3dba6" />
+<img width="379" height="455" alt="image" src="https://github.com/user-attachments/assets/88b49924-4b34-4904-b221-aba443d465df" />
+
+### Pertanyaan
+
+
+
+
