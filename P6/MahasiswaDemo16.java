@@ -42,6 +42,20 @@ public class MahasiswaDemo16 {
 
         System.out.println("Data yang sudah terurut menggunakan INSERTION SORT (ASC) : ");
         list.insertionSort();
+        list.tampil();  
+
         list.tampil();
+        System.out.println("-------------------------------------------------------------------");
+        System.out.println("Pencarian data");
+        System.out.println("--------------------------------------------------------------------");
+        System.out.println("Masukkan ipk mahasiswa yang dicari: ");
+        System.out.print("IPK : ");
+        double cari =dito.nextDouble();
+
+        System.out.println("Menggunakan sequential searching");
+        double posisi = list.sequentialSearching(cari);
+        int pss= (int) posisi;
+        list.tampilPosisi(cari,pss);
+        list.tampilDataSearch(cari,pss);
       }
 }
