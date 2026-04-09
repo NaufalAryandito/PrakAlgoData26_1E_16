@@ -1,4 +1,5 @@
 package CM1;
+
 import java.util.Scanner;
 
 public class MainPeminjaman {
@@ -6,7 +7,6 @@ public class MainPeminjaman {
     public static void main(String[] args) {
         Scanner dito = new Scanner(System.in);
 
-       
         Mahasiswa16[] m = {
             new Mahasiswa16("22001", "Andi", "Teknik Informatika"),
             new Mahasiswa16("22002", "Budi", "Teknik Informatika"),
@@ -28,6 +28,7 @@ public class MainPeminjaman {
         };
 
         int pilih;
+
         do {
             System.out.println("=== SISTEM PEMINJAMAN RUANG BACA JTI ===");
             System.out.println("1. Tampilkan Mahasiswa");
@@ -39,32 +40,40 @@ public class MainPeminjaman {
             System.out.print("Pilih: ");
             pilih = dito.nextInt();
 
-            switch(pilih){
+            switch (pilih) {
+
                 case 1:
                     System.out.println("\nDaftar Mahasiswa:");
-                    for(Mahasiswa16 x : m) x.tampilMahasiswa();
+                    for (Mahasiswa16 x : m) {
+                        x.tampilMahasiswa();
+                    }
                     System.out.println();
                     break;
 
                 case 2:
                     System.out.println("\nDaftar Buku:");
-                    for(Buku16 x : b) x.tampilBuku();
+                    for (Buku16 x : b) {
+                        x.tampilBuku();
+                    }
                     System.out.println();
                     break;
 
                 case 3:
                     System.out.println("\nData Peminjaman:");
-                    for(Peminjaman16 x : p) x.tampilPeminjaman();
+                    for (Peminjaman16 x : p) {
+                        x.tampilPeminjaman();
+                    }
                     System.out.println();
                     break;
 
                 case 4:
-                   
-                    for(int i=0; i<p.length-1; i++){
+                    
+                    for (int i = 0; i < p.length - 1; i++) {
                         int max = i;
-                        for(int j=i+1; j<p.length; j++){
-                            if(p[j].denda > p[max].denda)
+                        for (int j = i + 1; j < p.length; j++) {
+                            if (p[j].denda > p[max].denda) {
                                 max = j;
+                            }
                         }
                         Peminjaman16 temp = p[i];
                         p[i] = p[max];
@@ -72,7 +81,9 @@ public class MainPeminjaman {
                     }
 
                     System.out.println("\nSetelah diurutkan (Denda terbesar):");
-                    for(Peminjaman16 x : p) x.tampilPeminjaman();
+                    for (Peminjaman16 x : p) {
+                        x.tampilPeminjaman();
+                    }
                     System.out.println();
                     break;
 
@@ -81,15 +92,16 @@ public class MainPeminjaman {
                     String cari = dito.next();
                     boolean ketemu = false;
 
-                    for(Peminjaman16 x : p){
-                        if(x.mhs.nim.equals(cari)){
+                    for (Peminjaman16 x : p) {
+                        if (x.mhs.nim.equals(cari)) {
                             x.tampilPeminjaman();
                             ketemu = true;
                         }
                     }
 
-                    if(!ketemu)
+                    if (!ketemu) {
                         System.out.println("Data tidak ditemukan.");
+                    }
 
                     System.out.println();
                     break;
@@ -97,6 +109,9 @@ public class MainPeminjaman {
                 case 6:
                     System.out.println("Keluar...");
                     break;
+
+                default:
+                    System.out.println("Pilihan tidak valid!\n");
             }
 
         } while (pilih != 6);

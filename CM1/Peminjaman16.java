@@ -1,53 +1,38 @@
 package CM1;
 
 public class Peminjaman16 {
+
     Mahasiswa16 mhs;
     Buku16 buku;
     int lamaPinjam;
-    int denda;
     int telat;
+    int denda;
 
     Peminjaman16(Mahasiswa16 mhs, Buku16 buku, int lamaPinjam) {
         this.mhs = mhs;
         this.buku = buku;
         this.lamaPinjam = lamaPinjam;
+
+        hitungDenda();    
     }
 
-    public class Peminjaman {
-        Mahasiswa16 mhs;
-        Buku16 buku;
-        int lamaPinjam;
-        int telat;
-        int denda;
+    void hitungDenda() {
+        int batas = 5;
+        int biayaTelat = 2000;
 
-        Peminjaman(Mahasiswa16 mhs, Buku16 buku, int lamaPinjam) {
-            this.mhs = mhs;
-            this.buku = buku;
-            this.lamaPinjam = lamaPinjam;
-
-            hitungDenda();
+        if (lamaPinjam > batas) {
+            telat = lamaPinjam - batas;
+            denda = telat * biayaTelat;
+        } else {
+            telat = 0;
+            denda = 0;
         }
-
-        void hitungDenda() {
-            int batas = 5;
-            int biayaTelat = 2000;
-
-            if (lamaPinjam > batas) {
-                telat = lamaPinjam - batas;
-                denda = telat * biayaTelat;
-            } else {
-                telat = 0;
-                denda = 0;
-            }
-        }
-
     }
 
-    public void tampilPeminjaman() {
+    void tampilPeminjaman() {
         System.out.println(mhs.nama16 + " | " + buku.judul
                 + " | Lama: " + lamaPinjam
                 + " | Terlambat: " + telat
                 + " | Denda: " + denda);
     }
-
 }
