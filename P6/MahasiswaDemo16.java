@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class MahasiswaDemo16 {
     public static void main(String[] args) {
       Scanner dito = new Scanner (System.in);
-        
-      MahasiswaBerpretasi16 list= new MahasiswaBerpretasi16();
-
+      
       System.out.print("Jumlah Mahasiswa: ");
       int jumlah= dito.nextInt();
       dito.nextLine();
+      MahasiswaBerpretasi16 list= new MahasiswaBerpretasi16(jumlah);
+
       
       for (int i = 0; i < jumlah; i++) {
         System.out.println("data mahasiswa ke- "+(i+1));
@@ -57,5 +57,13 @@ public class MahasiswaDemo16 {
         int pss= (int) posisi;
         list.tampilPosisi(cari,pss);
         list.tampilDataSearch(cari,pss);
+
+        System.out.println("-----------------------------------------------------------------------");
+        System.out.println("Menggunakan binary search");
+        System.out.println("---------------------------------------------------");
+        double posisi2 = list.findBinarySearch(cari,0, jumlah-1);
+        int pss2= (int)posisi2;
+        list.tampilPosisi(cari, pss2);
+        list.tampilDataSearch(cari, pss2);
       }
 }

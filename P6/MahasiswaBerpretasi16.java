@@ -3,7 +3,11 @@ package P6;
 public class MahasiswaBerpretasi16 {
     Mahasiswa16[] listMhs = new Mahasiswa16[5];
     int idx;
-
+    
+    public MahasiswaBerpretasi16(int jumlah) {
+        listMhs = new Mahasiswa16[jumlah];
+        idx = 0;
+    }
 void tambah (Mahasiswa16 m){
     if (idx<listMhs.length){
         listMhs[idx]=m;
@@ -69,6 +73,22 @@ void tambah (Mahasiswa16 m){
         }else{
             System.out.println("data "+x+ " tidak ditemukan");
         }
+    }
+    int findBinarySearch(double cari, int left, int right){
+        int mid;
+        if(right>=left){
+            mid =(left+right)/2;
+            if (cari==listMhs[mid].ipk){
+                return (mid);
+            }
+            else if (listMhs[mid].ipk>cari){
+                return findBinarySearch(cari, left, mid-1);
+            }
+            else{
+                return findBinarySearch(cari,mid+1,right);
+            }
+        }
+        return -1;
     }
     void tampilDataSearch(double x, int pos){
         if (pos !=1){
