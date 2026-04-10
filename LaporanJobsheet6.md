@@ -82,5 +82,15 @@ Jika tanda < pada bagian if diubah menjadi >, maka fungsinya akan berubah menjad
 ### Pertanyaan
 
 
+### Tugas
+
+<h4>Screenshot</h4>
+<img width="794" height="525" alt="image" src="https://github.com/user-attachments/assets/0922ec45-4d8b-4f2a-bd1b-62be53a9f42f" />
+<img width="638" height="623" alt="image" src="https://github.com/user-attachments/assets/91dc7d2c-53eb-4a2f-acb7-a6695905c14f" />
+<img width="610" height="486" alt="image" src="https://github.com/user-attachments/assets/e9f5fcd0-4a9c-43a3-a58e-2b57b1a2f571" />
+<img width="885" height="622" alt="image" src="https://github.com/user-attachments/assets/2e0c4b1f-8793-4c87-b4e3-7664c103ec09" />
+<img width="828" height="498" alt="image" src="https://github.com/user-attachments/assets/6f3d114f-da02-4762-aa94-adce31f69ef0" />
+
+
 
 
