@@ -56,5 +56,12 @@ public class StackTugasMahasiswa16 {
         }
         System.out.println("");
     }
+    Mahasiswa16 lihatBawah() {
+    if (!isEmpty()) {
+        return stack[0];
+    } else {
+        return null;
+    }
+}
 }
 
