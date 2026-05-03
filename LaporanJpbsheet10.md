@@ -22,3 +22,16 @@
 6. Queue overflow terjadi ketika kondisi queue sudah penuh, yaitu saat jumlah elemen sama dengan kapasitas maksimum yang telah ditentukan. Potongan kode yang menunjukkan kondisi ini biasanya terdapat pada pengecekan method isFull, dimana jika kondisi tersebut terpenuhi maka program akan menampilkan pesan bahwa queue sudah penuh dan tidak dapat menerima data baru.
 7. <img width="355" height="82" alt="image" src="https://github.com/user-attachments/assets/91980358-b597-4630-81cd-1d629cfc9fe5" />
 <img width="344" height="85" alt="image" src="https://github.com/user-attachments/assets/6935a392-fd91-422d-9c76-d0178bc825cc" />
+
+## Praktikum 2
+<h4> Screenshot </h4>
+
+<img width="336" height="446" alt="image" src="https://github.com/user-attachments/assets/1df9b1fd-240c-468d-8558-424a2f16b5ba" />
+<img width="314" height="580" alt="image" src="https://github.com/user-attachments/assets/7273c685-431f-43bd-9236-a64869d745e6" />
+<img width="395" height="324" alt="image" src="https://github.com/user-attachments/assets/88e73296-66d3-4f69-9347-bc1667ec60ed" />
+
+## Pertanyaan
+
+<img width="522" height="150" alt="image" src="https://github.com/user-attachments/assets/79ed87d0-a480-43d1-8135-15cc344fe071" />
+<img width="299" height="64" alt="image" src="https://github.com/user-attachments/assets/b04e2734-ec1f-40aa-b665-49885123046b" />
+
