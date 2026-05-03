@@ -7,9 +7,9 @@ public class AntrianLayanan16 {
     int size;
     int max;
 
-    public AntrianLayanan16(int max){
+    public AntrianLayanan16(int max) {
         this.max = max;
-        this.data= new Mahasiswa16[max];
+        this.data = new Mahasiswa16[max];
         this.front = 0;
         this.rear = -1;
         this.size = 0;
@@ -53,60 +53,73 @@ public class AntrianLayanan16 {
         }
     }
 
-    public void clear(){
-        if (!IsEmpty()){
+    public void clear() {
+        if (!IsEmpty()) {
             front = rear = -1;
-            size =0;
+            size = 0;
             System.out.println("Queue berhasil dikosongkan");
-        
-        }else {
-          System.out.println("Queue masih kosong");
+
+        } else {
+            System.out.println("Queue masih kosong");
         }
     }
-    public void tambahAntrian(Mahasiswa16 mhs){
-        if (IsFull()){
+
+    public void tambahAntrian(Mahasiswa16 mhs) {
+        if (IsFull()) {
             System.out.println("Antrian penuh, tidak dapat menambah mahasiswa.");
             return;
         }
-        rear = (rear+1) % max;
+        rear = (rear + 1) % max;
         data[rear] = mhs;
         size++;
         System.out.println(mhs.nama + " berhasil masuk ke antrian.");
     }
-    public Mahasiswa16 layaniMahasiswa(){
+
+    public Mahasiswa16 layaniMahasiswa() {
         if (IsEmpty()) {
             System.out.println("Antrian kosong.");
             return null;
         }
         Mahasiswa16 mhs = data[front];
-        front = (front+1) % max;
+        front = (front + 1) % max;
         size--;
         return mhs;
     }
-    public void lihatTerdepan(){
-        if (IsEmpty()){
+
+    public void lihatTerdepan() {
+        if (IsEmpty()) {
             System.out.println("Antrian Kosong.");
-        }else {
+        } else {
             System.out.println("Mahasiswa terdepan: ");
             System.out.println("NIM - NAMA - PRODI - KELAS");
             data[front].tampilkanData();
         }
     }
-        public void tampilkanSemua(){
-            if (IsEmpty()) {
-                System.out.println("Antrian kosong.");
-                return;
-            }
-            System.out.println("Daftar Mahasiswa dalam Antrian: ");
-            System.out.println("NIM - NAMA - PRODI - KELAS");
-            for (int i= 0; i < size; i++){
-                int index = (front + i) %  max;
-                System.out.print((i+1)+ ". ");
-                data[index].tampilkanData();
-            }
+
+    public void lihatAkhir() {
+        if (!IsEmpty()) {
+            System.out.println("Antrian paling belakang:");
+            data[rear].tampilkanData();
+        } else {
+            System.out.println("Antrian kosong!");
         }
-    public int getJumlahAntrian(){
+    }
+
+    public void tampilkanSemua() {
+        if (IsEmpty()) {
+            System.out.println("Antrian kosong.");
+            return;
+        }
+        System.out.println("Daftar Mahasiswa dalam Antrian: ");
+        System.out.println("NIM - NAMA - PRODI - KELAS");
+        for (int i = 0; i < size; i++) {
+            int index = (front + i) % max;
+            System.out.print((i + 1) + ". ");
+            data[index].tampilkanData();
+        }
+    }
+
+    public int getJumlahAntrian() {
         return size;
     }
 }
-    
