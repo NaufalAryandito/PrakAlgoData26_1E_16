@@ -37,3 +37,11 @@
 if (temp.next == null) { tail = temp; } — Setelah penghapusan, dicek apakah temp.next menjadi null. Jika iya, berarti node yang dihapus tadi adalah node terakhir (tail). Maka tail harus diperbarui menjadi temp (node sebelumnya), supaya pointer tail tidak menunjuk ke node yang sudah tidak ada di list.
 
 ## Tugas Praktikum
+<img width="392" height="375" alt="image" src="https://github.com/user-attachments/assets/9550dbb1-3235-40a3-9245-91f633ea4452" />
+<img width="239" height="306" alt="image" src="https://github.com/user-attachments/assets/af6f84b5-ff6d-4f57-ad80-75eca24c020b" />
+<img width="239" height="432" alt="image" src="https://github.com/user-attachments/assets/37d7fba1-c5ef-490d-8569-f48df0b6b1b0" />
+<img width="224" height="149" alt="image" src="https://github.com/user-attachments/assets/ae49c034-2e2a-47db-b0d7-ed1e1edfd55a" />
+<img width="330" height="186" alt="image" src="https://github.com/user-attachments/assets/89b8a637-6345-44de-af87-50ec4f2825d3" />
+<img width="205" height="421" alt="image" src="https://github.com/user-attachments/assets/85b237d1-7d66-404e-b27e-aea11b694845" />
+<img width="473" height="277" alt="image" src="https://github.com/user-attachments/assets/622765ef-b9ac-498a-8b5a-8e638c8bdb55" />
+<img width="418" height="469" alt="image" src="https://github.com/user-attachments/assets/af20fb4b-f51b-40fa-a477-d58bf4b59a86" />
