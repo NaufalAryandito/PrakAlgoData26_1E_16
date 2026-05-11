@@ -53,7 +53,7 @@ public class DoubleLinkedListMain16 {
                     System.out.println("Pilihan tidak valid. Silakan coba lagi.");
             }
         } while (pilihan != 0);
-    }
+    } 
 
     public static Mahasiswa16 inputMahasiswa(Scanner dito) {
         System.out.print("Masukkan NIM: ");
