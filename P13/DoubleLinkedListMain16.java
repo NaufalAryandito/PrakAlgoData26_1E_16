@@ -16,6 +16,7 @@ public class DoubleLinkedListMain16 {
             System.out.println("4. Hapus Data di Awal");
             System.out.println("5. Hapus Data di Akhir");
             System.out.println("6. Tampilkan Data");
+            System.out.println("7. Tampilkan Data Secara Terbalik");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu : ");
             pilihan = dito.nextInt();
@@ -46,6 +47,9 @@ public class DoubleLinkedListMain16 {
                 case 6:
                     list.print();
                     break;
+                case 7:
+                    list.printReverse();
+                    break;
                 case 0:
                     System.out.println("Program selesai.");
                     break;
@@ -53,7 +57,7 @@ public class DoubleLinkedListMain16 {
                     System.out.println("Pilihan tidak valid. Silakan coba lagi.");
             }
         } while (pilihan != 0);
-    } 
+    }
 
     public static Mahasiswa16 inputMahasiswa(Scanner dito) {
         System.out.print("Masukkan NIM: ");
