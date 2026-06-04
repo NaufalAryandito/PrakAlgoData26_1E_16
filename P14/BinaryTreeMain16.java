@@ -23,7 +23,7 @@ public class BinaryTreeMain16 {
         bst.add(new Mahasiswa16("Ehsan", "D","244160205",3.37));
         bst.add(new Mahasiswa16("Fizi", "B","244160170",3.46));
         System.out.println("\n Daftar semua mahasiswa setelah penambahan 3 mahasiswa : ");
-        System.out.println("\n InOrder Traversal : ");
+        System.out.println("\n 7InOrder Traversal : ");
         bst.traverseInOrder(bst.root);
         System.out.println("\n PreOrder Traversal : ");
         bst.traversePreOrder(bst.root);
