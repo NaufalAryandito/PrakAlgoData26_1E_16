@@ -42,4 +42,24 @@
 3. <img width="299" height="46" alt="image" src="https://github.com/user-attachments/assets/2c661468-43e7-43a0-9633-7f21a944ba30" />
 <img width="253" height="110" alt="image" src="https://github.com/user-attachments/assets/7ad76e6c-4287-43fa-bd01-88ef2bf7094d" />
 
+### Tugas Praktikum
+<h4> Screenshot </h4>
+<img width="410" height="281" alt="image" src="https://github.com/user-attachments/assets/95f13762-73da-4f67-b43d-72211b2f497c" />
+<img width="382" height="175" alt="image" src="https://github.com/user-attachments/assets/bea59990-4782-495a-8d82-72e53dde7580" />
+<img width="475" height="203" alt="image" src="https://github.com/user-attachments/assets/45b9d196-cbee-4386-b3a3-35ab873be424" />
+<img width="350" height="269" alt="image" src="https://github.com/user-attachments/assets/bebc50b3-1bd8-46fd-b185-86ee272a6220" />
+<img width="432" height="173" alt="image" src="https://github.com/user-attachments/assets/e4643bc9-abae-46ae-b8dc-c35c8c13772b" />
+<img width="431" height="415" alt="image" src="https://github.com/user-attachments/assets/c232e788-2d97-4e50-b15b-77895684c34b" />
+<img width="252" height="320" alt="image" src="https://github.com/user-attachments/assets/b8147b62-2a10-40aa-8f27-967a15e5c486" />
+<img width="344" height="139" alt="image" src="https://github.com/user-attachments/assets/8633ae68-16f8-495d-94c0-4551997056d1" />
+<img width="323" height="166" alt="image" src="https://github.com/user-attachments/assets/31f97270-0243-4a2d-9e1f-850e270ea52a" />
+<img width="327" height="182" alt="image" src="https://github.com/user-attachments/assets/96837fd8-6994-4c03-ad57-cb5ad1f56967" />
+<img width="305" height="152" alt="image" src="https://github.com/user-attachments/assets/9c14f0e4-d208-40f2-9709-9f7caed7b34d" />
+
+
+
+
+
+
+
 
