@@ -44,5 +44,11 @@ for (int i = 0; i < fruits.size(); i++) {
 
 fruits.set(fruits.size() - 1, "Strawberry");
 System.out.println("Setelah elemen terakhir diganti: " + fruits.toString());
+
+fruits.add("Mango"); 
+        fruits.add("guava"); 
+        fruits.add("avocado"); 
+        java.util.Collections.sort(fruits); 
+        System.out.println("Setelah ditambah 3 buah & di-sorting: " + fruits.toString());
 }
 }
