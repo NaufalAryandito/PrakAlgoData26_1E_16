@@ -6,29 +6,27 @@ import java.util.List;
 
 public class ContohList16 {
     public static void main(String[] args) {
-        List<Integer> l = new ArrayList<>();
-        l.add(1);
-        l.add(2);
-        l.add(3);
-
-        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
-                l.get(0), l.size(), l.get(l.size() - 1));
-
-        l.add(4);
-        l.remove(0);
-
-        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
-                l.get(0), l.size(), l.get(l.size() - 1));
-
-        List<String> names = new LinkedList<>();
-        names.add("Noureen");
-        names.add("Akhleema");
-        names.add("Shannum");
-        names.add("Uwais");
-        names.add("Al-Qarni");
+        LinkedList<String> names = new LinkedList<>();
+        names.push("Mei-mei");
 
         System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
                 names.get(0), names.size(), names.get(names.size() - 1));
+
+        names.add("Dewi");
+        names.remove(0);
+
+        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
+                names.get(0), names.size(), names.get(names.size() - 1));
+
+        List<String> names2 = new LinkedList<>();
+        names2.add("Noureen");
+        names2.add("Akhleema");
+        names2.add("Shannum");
+        names2.add("Uwais");
+        names2.add("Al-Qarni");
+
+        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
+                names2.get(0), names2.size(), names2.get(names2.size() - 1));
 
         names.set(0, "My kid");
 
