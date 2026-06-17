@@ -12,6 +12,7 @@ fruits.add("Watermelon");
 fruits.add("Leci"); 
 fruits.push("Salak"); 
 
+
 for (String fruit : fruits) { 
     System.out.printf("%s ", fruit); 
 }
@@ -40,5 +41,8 @@ System.out.println("");
 for (int i = 0; i < fruits.size(); i++) { 
     System.out.printf("%s ", fruits.get(i)); 
 }
+
+fruits.set(fruits.size() - 1, "Strawberry");
+System.out.println("Setelah elemen terakhir diganti: " + fruits.toString());
 }
 }
